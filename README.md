@@ -89,6 +89,8 @@ Tests cover the spec parser, URL building, streaming spec extraction and frame s
 - The on/off setting is the only thing stored on disk. Frames are kept in session storage, which is cleared when the browser closes.
 - The extension does contact YouTube to fetch preview frames. What it never does is send your browsing data or the frames to anyone else.
 
+See [PRIVACY.md](PRIVACY.md) for the full policy.
+
 ## Known limitations
 
 - The storyboard format and YouTube's page markup are internal and can change without notice. Selectors are isolated in `detector.js`; the parser is isolated in `storyboard.js`.

@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>HonestFrame</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <header>
+      <h1>HonestFrame</h1>
+      <p class="tagline">See the video, not the bait.</p>
+    </header>
+
+    <label class="row" for="enabled">
+      <span>Replace thumbnails</span>
+      <span class="switch">
+        <input type="checkbox" id="enabled" role="switch" />
+        <span class="track"></span>
+      </span>
+    </label>
+
+    <button id="shuffle" type="button">Shuffle frames</button>
+    <p id="status" role="status" aria-live="polite"></p>
+
+    <p class="note">
+      Frames are cropped from YouTube's own preview images, on your device.
+      Nothing is sent to a HonestFrame server.
+    </p>
+
+    <script src="popup.js"></script>
+  </body>
+</html>

@@ -1,0 +1,12 @@
+{
+  "name": "honestframe",
+  "version": "0.1.0",
+  "description": "A privacy-first Chrome extension that replaces YouTube clickbait thumbnails with actual video frames.",
+  "type": "module",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "test": "node --test \"tests/*.test.js\"",
+    "check": "node scripts/check.mjs"
+  }
+}
